@@ -1,0 +1,156 @@
+{
+  "info": {
+    "name": "MERN Image Search API",
+    "description": "Complete API collection for Image Search application with OAuth",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Authentication",
+      "item": [
+        {
+          "name": "Get Current User",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:5000/auth/user",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "5000",
+              "path": ["auth", "user"]
+            },
+            "description": "Returns the currently authenticated user's information"
+          },
+          "response": []
+        },
+        {
+          "name": "Logout",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:5000/auth/logout",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "5000",
+              "path": ["auth", "logout"]
+            },
+            "description": "Logs out the current user and destroys the session"
+          },
+          "response": []
+        },
+        {
+          "name": "Login with Google (Browser)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:5000/auth/google",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "5000",
+              "path": ["auth", "google"]
+            },
+            "description": "Initiates Google OAuth flow - Must be opened in browser"
+          },
+          "response": []
+        },
+        {
+          "name": "Login with Facebook (Browser)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:5000/auth/facebook",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "5000",
+              "path": ["auth", "facebook"]
+            },
+            "description": "Initiates Facebook OAuth flow - Must be opened in browser"
+          },
+          "response": []
+        },
+        {
+          "name": "Login with GitHub (Browser)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:5000/auth/github",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "5000",
+              "path": ["auth", "github"]
+            },
+            "description": "Initiates GitHub OAuth flow - Must be opened in browser"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Search",
+      "item": [
+        {
+          "name": "Search Images",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"term\": \"nature\"\n}"
+            },
+            "url": {
+              "raw": "http://localhost:5000/api/search",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "5000",
+              "path": ["api", "search"]
+            },
+            "description": "Search for images using Unsplash API. Requires authentication."
+          },
+          "response": []
+        },
+        {
+          "name": "Get Top Searches",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:5000/api/top-searches",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "5000",
+              "path": ["api", "top-searches"]
+            },
+            "description": "Get top 5 most searched terms across all users"
+          },
+          "response": []
+        },
+        {
+          "name": "Get Search History",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:5000/api/history",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "5000",
+              "path": ["api", "history"]
+            },
+            "description": "Get the current user's search history. Requires authentication."
+          },
+          "response": []
+        }
+      ]
+    }
+  ]
+}
