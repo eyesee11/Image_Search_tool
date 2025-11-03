@@ -120,8 +120,6 @@ npm install
 
 #### Unsplash API
 
-**📸 See detailed guide:** [UNSPLASH_API_SETUP.md](UNSPLASH_API_SETUP.md)
-
 1. Go to [https://unsplash.com/developers](https://unsplash.com/developers)
 2. Create a new application
 3. **Note:** Unsplash requires proper photo attribution (already implemented in this app!)
@@ -153,13 +151,12 @@ npm install
 
 ### Step 5: Set Up Database
 
-**🗄️ MongoDB Atlas (Recommended):** [MONGODB_ATLAS_SETUP.md](MONGODB_ATLAS_SETUP.md)
-
 #### Option A: MongoDB Atlas (Cloud - Recommended)
 
-1. Follow the [MongoDB Atlas Setup Guide](MONGODB_ATLAS_SETUP.md)
-2. Get your connection string
-3. Add to `.env`: `MONGODB_URI=mongodb+srv://...`
+1. Go to [MongoDB Atlas](https://www.mongodb.com/cloud/atlas)
+2. Create a free account and cluster
+3. Get your connection string
+4. Add to `.env`: `MONGODB_URI=mongodb+srv://...`
 
 #### Option B: Local MongoDB
 
@@ -445,8 +442,6 @@ curl -X GET http://localhost:5000/api/history \
 
 ## 📸 Screenshots
 
-> **Note:** For detailed screenshot guidelines, see [SCREENSHOTS.md](SCREENSHOTS.md)
-
 ### OAuth Login
 
 ![Login Page](screenshots/login.png)
@@ -454,40 +449,40 @@ _Three OAuth providers with modern UI_
 
 ### OAuth Authentication Flow
 
-![OAuth Flow](screenshots/oauth-flow.gif)
+![OAuth Flow](screenshots/OAuth.png)
 _Complete OAuth authentication process_
 
 ### Top Searches Banner
 
-![Top Searches](screenshots/top-searches.png)
+![Top Searches](screenshots/top searches banner.png)
 _Shows most popular search terms_
 
 ### Search Bar
 
-![Search Bar](screenshots/search-bar.png)
+![Search Bar](screenshots/search.png)
 _Search input with brutalist design_
 
-### Search Results with Multi-Select
+<!-- ### Search Results with Multi-Select
 
 ![Search Results](screenshots/search-results.png)
-_4-column grid with checkbox overlay_
+_4-column grid with checkbox overlay_ -->
 
 ### Multi-Select Interaction
 
-![Multi-Select](screenshots/multi-select.gif)
+![Multi-Select](screenshots/search+multi Select.png)
 _Interactive checkbox selection_
 
-### Image Grid Layout
+<!-- ### Image Grid Layout
 
 ![Image Grid](screenshots/image-grid-4col.png)
-_4-column responsive grid layout_
+_4-column responsive grid layout_ -->
 
 ### Search History
 
-![Search History](screenshots/history.png)
+![Search History](screenshots/search history.png)
 _Personal search history with timestamps_
 
-### Complete Application View
+<!-- ### Complete Application View
 
 ![Full App](screenshots/full-app.png)
 _Full application interface_
@@ -500,7 +495,7 @@ _Responsive mobile layout_
 ### User Profile Header
 
 ![Header Profile](screenshots/header-profile.png)
-_User profile with avatar and logout_
+_User profile with avatar and logout_ -->
 
 ## 🔧 Technologies Used
 
