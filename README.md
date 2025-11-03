@@ -454,7 +454,7 @@ _Complete OAuth authentication process_
 
 ### Top Searches Banner
 
-![Top Searches](screenshots/top searches banner.png)
+![Top Searches](screenshots/top_searches_banner.png)
 _Shows most popular search terms_
 
 ### Search Bar
@@ -469,7 +469,7 @@ _4-column grid with checkbox overlay_ -->
 
 ### Multi-Select Interaction
 
-![Multi-Select](screenshots/search+multi Select.png)
+![Multi-Select](screenshots/"search+multiSelect".png)
 _Interactive checkbox selection_
 
 <!-- ### Image Grid Layout
@@ -479,7 +479,7 @@ _4-column responsive grid layout_ -->
 
 ### Search History
 
-![Search History](screenshots/search history.png)
+![Search History](screenshots/search_history.png)
 _Personal search history with timestamps_
 
 <!-- ### Complete Application View
