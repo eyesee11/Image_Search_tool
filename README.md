@@ -445,25 +445,62 @@ curl -X GET http://localhost:5000/api/history \
 
 ## 📸 Screenshots
 
+> **Note:** For detailed screenshot guidelines, see [SCREENSHOTS.md](SCREENSHOTS.md)
+
 ### OAuth Login
 
 ![Login Page](screenshots/login.png)
 _Three OAuth providers with modern UI_
+
+### OAuth Authentication Flow
+
+![OAuth Flow](screenshots/oauth-flow.gif)
+_Complete OAuth authentication process_
 
 ### Top Searches Banner
 
 ![Top Searches](screenshots/top-searches.png)
 _Shows most popular search terms_
 
+### Search Bar
+
+![Search Bar](screenshots/search-bar.png)
+_Search input with brutalist design_
+
 ### Search Results with Multi-Select
 
 ![Search Results](screenshots/search-results.png)
 _4-column grid with checkbox overlay_
 
+### Multi-Select Interaction
+
+![Multi-Select](screenshots/multi-select.gif)
+_Interactive checkbox selection_
+
+### Image Grid Layout
+
+![Image Grid](screenshots/image-grid-4col.png)
+_4-column responsive grid layout_
+
 ### Search History
 
 ![Search History](screenshots/history.png)
 _Personal search history with timestamps_
+
+### Complete Application View
+
+![Full App](screenshots/full-app.png)
+_Full application interface_
+
+### Mobile Responsive Design
+
+![Mobile View](screenshots/mobile-view.png)
+_Responsive mobile layout_
+
+### User Profile Header
+
+![Header Profile](screenshots/header-profile.png)
+_User profile with avatar and logout_
 
 ## 🔧 Technologies Used
 
